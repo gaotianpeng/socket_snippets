@@ -32,4 +32,5 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)
 
 add_subdirectory(lib/)
 add_subdirectory(01_make_socket)
+add_subdirectory(02_socket_cs)
 
