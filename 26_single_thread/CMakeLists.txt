@@ -1,0 +1,2 @@
+add_executable(single_thread poll_single_thread.c)
+target_link_libraries(single_thread gtp)
