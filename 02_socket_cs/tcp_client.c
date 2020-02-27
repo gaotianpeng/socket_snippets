@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     bzero(&seraddr, sizeof(seraddr));
     seraddr.sin_family = AF_INET; 
-    seraddr.sin_port = htons(12345);
+    seraddr.sin_port = htons(SERV_PORT);
     inet_pton(AF_INET, argv[1], &seraddr.sin_addr);
     int connect_rt = connect(sockfd, (struct sockaddr*)&seraddr, sizeof(seraddr));
     if(connect_rt < 0) {
