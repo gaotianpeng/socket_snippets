@@ -37,4 +37,5 @@ add_subdirectory(03_udp)
 add_subdirectory(20_select)
 add_subdirectory(21_poll)
 add_subdirectory(22_noblock)
-
+add_subdirectory(23_epoll)
+add_subdirectory(24_multi_process)
